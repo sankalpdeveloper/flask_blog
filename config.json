@@ -6,6 +6,8 @@
         "prod_uri":"none",
         "fb_url":"https://facebook.com/sankalpdev",
         "tw_url":"https://twitter.com/sankalpdev",
-        "github_url":"https://github.com/sankalpdeveloper"
+        "github_url":"https://github.com/sankalpdeveloper",
+        "email":"",
+        "password":""
     }
 }
