@@ -3,6 +3,9 @@
     {
         "local_server":"True",
         "local_uri":"mysql://root:@localhost/sankalpdev",
-        "prod_uri":"none"
+        "prod_uri":"none",
+        "fb_url":"https://facebook.com/sankalpdev",
+        "tw_url":"https://twitter.com/sankalpdev",
+        "github_url":"https://github.com/sankalpdeveloper"
     }
 }

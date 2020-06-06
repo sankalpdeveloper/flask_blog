@@ -1,12 +1,11 @@
 from flask import Flask, render_template, request
 from flask_sqlalchemy import SQLAlchemy
 import json
-# import simplejson
 from datetime import datetime
 
 local_server = True
 with open('config.json','r') as c:
-    params = json.load(c)["params"]
+   params = json.load(c)["params"]
 
 
 app = Flask(__name__)
@@ -16,7 +15,7 @@ if local_server:
 else:
     app.config['SQLALCHEMY_DATABASE_URI'] = params['prod_uri']
 
-
+# print(params)
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
@@ -32,12 +31,16 @@ class Contect(db.Model):
 
 @app.route("/")
 def home():
-    return render_template('index.html')
+    return render_template('index.html',params=params)
 
 
 @app.route("/about")
 def about():
-    return render_template('about.html')
+    return render_template('about.html',params=params)
+
+@app.route("/post")
+def post():
+    return render_template('post.html',params=params)
 
 
 
@@ -53,6 +56,6 @@ def contect():
         db.session.add(entry)
         db.session.commit()
         return render_template('thank-you.html')
-    return render_template('contact.html')
+    return render_template('contact.html',params=params)
 
 app.run(debug=True)
