@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d851cc5-09b7-435d-9215-248dfbca0439" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/signin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/favicon/bootstrap-solid.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/sign_in.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sankalpdev.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/post.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,22 +92,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590850041951" />
-    <state width="1339" height="141" key="GridCell.Tab.0.bottom" timestamp="1592034352146">
+    <state width="1339" height="140" key="GridCell.Tab.0.bottom" timestamp="1592043362408">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1339" height="141" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592034352146" />
-    <state width="1339" height="141" key="GridCell.Tab.0.center" timestamp="1592034352146">
+    <state width="1339" height="140" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592043362408" />
+    <state width="1339" height="140" key="GridCell.Tab.0.center" timestamp="1592043362407">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1339" height="141" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592034352146" />
-    <state width="1339" height="141" key="GridCell.Tab.0.left" timestamp="1592034352145">
+    <state width="1339" height="140" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592043362407" />
+    <state width="1339" height="140" key="GridCell.Tab.0.left" timestamp="1592043362407">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1339" height="141" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592034352145" />
-    <state width="1339" height="141" key="GridCell.Tab.0.right" timestamp="1592034352146">
+    <state width="1339" height="140" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592043362407" />
+    <state width="1339" height="140" key="GridCell.Tab.0.right" timestamp="1592043362407">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1339" height="141" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592034352146" />
+    <state width="1339" height="140" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592043362407" />
     <state x="151" y="0" key="SettingsEditor" timestamp="1591960606983">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
