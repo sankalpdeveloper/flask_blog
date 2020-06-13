@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d851cc5-09b7-435d-9215-248dfbca0439" name="Default Changelist" comment="" />
+    <list default="true" id="7d851cc5-09b7-435d-9215-248dfbca0439" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/signin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/favicon/bootstrap-solid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/sign_in.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/post.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,16 +28,25 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1cdC2g9kzesZ8zJgJibwd48A7qV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/main.py" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -68,6 +90,9 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590850051061">
       <screen x="0" y="0" width="1366" height="728" />
@@ -77,25 +102,29 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590850041951" />
-    <state width="1346" height="153" key="GridCell.Tab.0.bottom" timestamp="1591341534378">
+    <state width="1339" height="141" key="GridCell.Tab.0.bottom" timestamp="1592034352146">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1346" height="153" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591341534378" />
-    <state width="1346" height="153" key="GridCell.Tab.0.center" timestamp="1591341534378">
+    <state width="1339" height="141" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592034352146" />
+    <state width="1339" height="141" key="GridCell.Tab.0.center" timestamp="1592034352146">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1346" height="153" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591341534378" />
-    <state width="1346" height="153" key="GridCell.Tab.0.left" timestamp="1591341534378">
+    <state width="1339" height="141" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592034352146" />
+    <state width="1339" height="141" key="GridCell.Tab.0.left" timestamp="1592034352145">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1346" height="153" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591341534378" />
-    <state width="1346" height="153" key="GridCell.Tab.0.right" timestamp="1591341534378">
+    <state width="1339" height="141" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592034352145" />
+    <state width="1339" height="141" key="GridCell.Tab.0.right" timestamp="1592034352146">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1346" height="153" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591341534378" />
-    <state x="201" y="9" key="SettingsEditor" timestamp="1590897785716">
+    <state width="1339" height="141" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592034352146" />
+    <state x="151" y="0" key="SettingsEditor" timestamp="1591960606983">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="201" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1590897785716" />
+    <state x="151" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1591960606983" />
+    <state x="335" y="185" width="806" height="338" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1591960556881">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="335" y="185" width="806" height="338" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1366.728@0.0.1366.728" timestamp="1591960556881" />
   </component>
 </project>

@@ -7,7 +7,12 @@
         "fb_url":"https://facebook.com/sankalpdev",
         "tw_url":"https://twitter.com/sankalpdev",
         "github_url":"https://github.com/sankalpdeveloper",
-        "email":"",
-        "password":""
+        "email":"sankalpdev1999@gmail.com",
+        "password":"hello@14044789",
+        "about_me":"my name is sankalp choudhary and i am enthugiast in AI and ML",
+        "no_of_posts":3,
+        "blog_name":"SankalpDev",
+        "admin_user":"admin",
+        "admin_password":"pass"
     }
 }

@@ -1,0 +1,56 @@
+{% extends "layout.html" %}
+{% block body %}
+ <!-- Page Header -->
+  <header class="masthead" style="background-image: url('{{ url_for('static',filename = 'img/home-bg.jpg')}}')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="site-heading">
+            <h1>SankalpDev</h1>
+            <span class="subheading">A Blog for Developer by Developers</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <h1>Basic Action</h1>
+        <button class="btn btn-primary">
+          <a href="/edit/0">Add a New Post</a>
+        </button>
+        <hr>
+        <h1>Edit Post</h1>
+        <table class= "table">
+          <thead>
+            <tr>
+            <td><button class="btn">Sn.</button></td>
+            <td><button class="btn">Title</button></td>
+            <td><button class="btn">Date</button></td>
+            <td><button class="btn">Edit</button></td>
+            <td><button class="btn">Delete</button></td>
+          </tr>
+          </thead>
+          {% for post in posts %}
+          <tbody>
+            <tr>
+            <td>{{post.srn}}</td>
+            <td>{{post.title}}</td>
+            <td>{{post.date}}</td>
+            <td><a href="/edit/{{post.srn}}"><button class="btn btn-primary">Edit</button></a></td>
+            <td><button class="btn btn-primary">Delete</button></td>
+          </tr>
+          {% endfor %}
+          </tbody>
+        </table>          
+  
+      </div>
+    </div>
+  </div>
+
+
+{% endblock %}

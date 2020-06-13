@@ -1,0 +1,35 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="{{url_for('static',filename ='img/favicon/favicon.ico')}}" type="image/x-icon">
+
+    <title>Dashboard</title>
+
+    <link rel="canonical" href="#">
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{url_for('static',filename = "vendor/bootstrap/css/bootstrap.min.css")}}" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="{{url_for('static',filename = "css/signin.css")}}" rel="stylesheet">
+  </head>
+
+  <body class="text-center">
+    <form class="form-signin" action="/dashboard" method="POST">
+      <img class="mb-4" src="{{url_for('static',filename = "img/favicon/apple-touch-icon.png")}}" alt="" width="72" height="72">
+      <h1 class="h3 mb-3 font-weight-normal">Admin login</h1>
+      <label for="uname" class="sr-only">Email address</label>
+      <input type="text" id="uname" class="form-control" placeholder="User Name" name="uname" required autofocus>
+      <label for="pass" class="sr-only">Password</label>
+      <input type="password" id="pass" class="form-control" placeholder="Password" name="pass" required>
+      
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      <p class="mt-5 mb-3 text-muted">&copy; {{params.blog_name}} 2019-2020</p>
+    </form>
+  </body>
+</html>
